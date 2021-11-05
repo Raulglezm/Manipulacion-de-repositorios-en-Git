@@ -1,4 +1,4 @@
-# Manipulacion-de-repositorios-en-Git
+# Manipulación-de-repositorios-en-Git
 
 ![image](https://user-images.githubusercontent.com/91153605/140454717-4a0ca8e9-b5a6-421e-acdf-e7ace54f0587.png)
 
@@ -6,16 +6,16 @@
 
 ### Paso 1
 
-###### 1. El primer comando que utilizaremos es```git config --global user.name "Your-Full-Name"``` e intoduciremos nuestro nombre entre las comillas.
+###### 1. El primer comando que utilizaremos es ```git config --global user.name "Your-Full-Name"``` e introduciremos nuestro nombre entre las comillas.
 ###### 2. Ahora introduciremos el comando ```git config --global user.email "your-email-address"``` y entre las comillas pondremos nuestro gmail.
-###### 3. El tercer comando cerá ```git config --global color.ui auto``` con el que activaremos el coloreado de salida.
-###### 4. Con el último comando motraremos la lista```git config --list```.
+###### 3. El tercer comando será ```git config --global color.ui auto``` con el que activaremos el coloreado de salida.
+###### 4. Con el último comando mostraremos la lista```git config --list```.
 
 ![1](https://user-images.githubusercontent.com/91153605/140449663-0536a033-f417-4cee-a133-1336411a6555.PNG)
 
 ### Paso 2
 
-###### Crearemos un repositorio con el nombre dpl, para posteriomente mostrar su contenido, para ellos usaremos los comandos: 
+###### Crearemos un repositorio con el nombre dpl, para posteriormente mostrar su contenido, para ellos usaremos los comandos: 
 ###### 1. ```mkdir dpl```
 ###### 2. ```cd dpl```
 ###### 3. ```git init```
@@ -33,13 +33,13 @@
 ###### Pulsaremos Ctrl+D para salir.
 ###### Usaremos de nuevo ```git status```.
 ###### Añadiremos el ```git indice.txt```.
-###### Y finalizremos con un ```git Status```.
+###### Y finalizaremos con un ```git Status```.
 
 ![nueva 3](https://user-images.githubusercontent.com/91153605/140452955-69373dd7-632c-48df-bc84-e9a18e214e7f.PNG)
 
 ## Paso 4 
 
-###### En este paso realizaremos un commit de los cambios dejendo constancia de lo que hemos hecho.
+###### En este paso realizaremos un commit de los cambios dejando constancia de lo que hemos hecho.
 
 ###### Primero usaremos el comando ```git commit -m "Añadido índice de la asignatura DPL."```.
 ###### Y finalizaremos con el comando ```git Status```.
@@ -48,7 +48,7 @@
 
 ## Paso 5
 ###### En este paso modificaremos los ficheros creados anteriormente.
-###### Igual que antes intoduciremos el comando ```cat > indice.txt``` y dentro del el: 
+###### Igual que antes introduciremos el comando ```cat > indice.txt``` y dentro del el: 
 ###### ```Capítulo 1: Instalación de Git por el alumno XXX _(donde XXX es el nombre del alumno)```
 ###### ```Capítulo 2: Flujo de trabajo básico```
 ###### ```Capítulo 3: Gestión de ramas```
@@ -65,7 +65,7 @@
 
 ###### Este es el último paso y en el mostraremos el historial.
 ###### Primero mostraremos los cambios con el comando ```git show```.
-###### Ahora cambiaremos el mensaje del último commit que hemos hecho con el comando ```git commit --amend -m "Añadido el capitulo sobre gestión de ramas al índice."```.
+###### Ahora cambiaremos el mensaje del último commit que hemos hecho con el comando ```git commit --amend -m "Añadido el capítulo sobre gestión de ramas al índice."```.
 ###### Y para finalizar usaremos el comando ```git show``` para ver los cambios.
 ![6 git show](https://user-images.githubusercontent.com/91153605/140454824-b52aa289-9eba-4afa-a885-92aadbac2696.PNG)
 ![7 commit](https://user-images.githubusercontent.com/91153605/140454673-91860f9a-c092-4c5e-a3d3-9fe18f60167e.PNG)
